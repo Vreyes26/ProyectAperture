@@ -1,0 +1,63 @@
+/* 
+    Created on : 12-04-2020, 19:11:50
+    Author     : vreye
+*/
+
+html{
+    color: white;
+    background-color: black;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+header{
+    text-align: center;
+}
+
+#navegador ul{ /*cuadro texto*/
+    border: 1px solid orange;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navegador li{
+    float: left;
+}
+
+#navegador li a{
+    display: block;
+    color: orange;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+#texto{
+    font-size: medium;
+    padding: 20px 20px;
+}
+
+#ImagenPG{
+    border: 3px solid #002699;
+    border-radius: 5px;
+    float: right;
+    margin-right: 0;
+}
+
+footer{
+    font-size: small;
+    border: 2px solid orange;
+    padding: 3px 8px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    color: white;
+}
